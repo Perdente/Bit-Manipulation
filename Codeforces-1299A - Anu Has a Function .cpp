@@ -10,7 +10,7 @@ Now , think about array [a,b,c,d,e] .
 
 If we think this array order as right.
 
-Then ,value will be equal to  f(f(f(f(a,b),c),d),e) which is equivalent to a&(~b)&(~c)&(~d)&(~e) . From this expression , what will make you sense that we have to find out that value which will be first in array ,others will not make fact !! So, for traversing the whole array , we think this arri our first element and (make and operations with all ~(elements) ) .That's why make a suffix and prefix array of & operations of (~ all elements of till i) .Rest of this should be done by you 
+Then ,value will be equal to  f(f(f(f(a,b),c),d),e) which is equivalent to a&(~b)&(~c)&(~d)&(~e) . From this expression , what will make you sense that we have to find out that value which will be first in array ,others will not make fact !! So, for traversing the whole array , we think this array our first element and (make and operations with all ~(elements) ) .That's why make a suffix and prefix array of & operations of (~ all elements of till i) .Rest of this should be done by you 
 
 
 */
